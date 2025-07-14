@@ -5,37 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bella Puppies</title>
   <style>
-    body {
+    body {{
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
       background: url('fondo.png') no-repeat center center fixed;
       background-size: cover;
       color: #fff;
-    }
-    header {
+    }}
+    header {{
       text-align: center;
       padding: 20px;
-    }
-    header img {
+    }}
+    header img {{
       width: 150px;
-    }
-    h1 {
+    }}
+    h1 {{
       font-size: 2em;
       margin-top: 10px;
-    }
-    .portada {
+    }}
+    .portada {{
       width: 100%;
       max-height: 400px;
       object-fit: cover;
       display: block;
-    }
-    .catalogo {
+    }}
+    .catalogo {{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       padding: 30px;
-    }
-    .perro {
+    }}
+    .perro {{
       background: rgba(0,0,0,0.7);
       border-radius: 15px;
       margin: 20px;
@@ -43,32 +43,29 @@
       width: 300px;
       text-align: center;
       box-shadow: 0 0 10px rgba(255,255,255,0.2);
-    }
-    .perro img {
+    }}
+    .perro img {{
       width: 100%;
       border-radius: 10px;
-    }
-    .perro a {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 10px 20px;
-      background-color: #ffb6c1;
-      color: #000;
-      text-decoration: none;
-      border-radius: 10px;
+      filter: grayscale(100%);
+    }}
+    .perro .vendido {{
+      color: red;
       font-weight: bold;
-    }
-    footer {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }}
+    footer {{
       text-align: center;
       margin-top: 50px;
       padding: 20px;
       background: rgba(0,0,0,0.7);
-    }
-    footer a {
+    }}
+    footer a {{
       color: #ffb6c1;
       text-decoration: none;
       font-weight: bold;
-    }
+    }}
   </style>
 </head>
 <body>
@@ -83,25 +80,25 @@
       <img src="chanel.png" alt="Chanel">
       <h2>Chanel</h2>
       <p>Raza: Border Collie</p>
-      <a href="chanel.html">Ver más</a>
+      <p class="vendido">VENDIDO</p>
     </div>
     <div class="perro">
       <img src="jackie.png" alt="Jackie">
       <h2>Jackie</h2>
       <p>Raza: Bulldog Francés</p>
-      <a href="jackie.html">Ver más</a>
+      <p class="vendido">VENDIDO</p>
     </div>
     <div class="perro">
       <img src="jocker.png" alt="Jocker">
       <h2>Jocker</h2>
       <p>Raza: Bulldog</p>
-      <a href="jocker.html">Ver más</a>
+      <p class="vendido">VENDIDO</p>
     </div>
     <div class="perro">
       <img src="bebote.png" alt="Bebote">
       <h2>Bebote</h2>
       <p>Raza: Bulldog</p>
-      <a href="bebote.html">Ver más</a>
+      <p class="vendido">VENDIDO</p>
     </div>
   </section>
 
